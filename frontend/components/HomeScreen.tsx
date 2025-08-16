@@ -317,6 +317,9 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
+        <div className=" py-4 text-center text-sm text-black">
+          &copy; {new Date().getFullYear()} Developed and maintained by Vistrahost.com. All rights reserved.
+        </div>
       </footer>
     </div>
   );
